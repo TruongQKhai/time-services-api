@@ -21,4 +21,4 @@ app.MapGet("/time", () =>
     };
 });
 
-app.Run();
+app.Run(); 
