@@ -17,8 +17,8 @@ app.MapGet("/time", () =>
     return new
     {
         CurrentTime = DateTime.UtcNow,
-        TimeZone = "UTC"
+        TimeZone = "UTC Now"
     };
 });
 
-app.Run(); 
+app.Run();
